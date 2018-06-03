@@ -1,20 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #8e9eab; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8e9eab, #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8e9eab, #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 #buttons-view button,
 div,
 #buttons-view input {
-  margin-right: 0.3125rem;
-  margin-bottom: 0.3125rem;
-  margin-top: 0.3125rem;
+    margin-right: 0.3125rem;
+    margin-bottom: 0.3125rem;
+    margin-top: 0.3125rem;
 }
 
 img.gif-style {
-  height: 200px;
-  margin-bottom: 20px;
+    height: 200px;
+    margin-bottom: 20px;
 }
 
 .card {
-  max-width: 15.625rem;
+    max-width: 15.625rem;
+    margin: 0.625rem auto;
 }
 
-.card {
-  margin: 0.625rem auto;
+.btn-info {
+    background-color: lightslategray;
+    border: 1px solid darkgreen;
+}
+
+.btn-info:hover {
+    background-color: darkslategrey;
 }
